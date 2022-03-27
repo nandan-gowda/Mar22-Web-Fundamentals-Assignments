@@ -1,0 +1,16 @@
+*{
+    padding: 0;
+}
+body.one {
+display: inline;
+float: left;
+padding: 20px;
+}
+
+button.green{
+    background-color: green;
+    color: white;
+    border-radius: 4px;
+    width:max-content;
+    height: 30px;
+}

@@ -1,0 +1,44 @@
+*{
+    padding: 0% 0%;
+}
+form{
+    padding: 2%;
+    text-align: center;
+    /* background-color: azure; */
+    
+}
+.sect1{
+    color: white;
+    text-align: center;
+    height: 100%;
+    font-size: large;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+/* button{
+    background-color: blue;
+    color: white;
+    height: 40px;
+    width: 60px; 
+    border-radius: 10px;
+    
+} */
+
+h1{
+    text-align: center;
+    color: rgb(22, 1, 1);
+    
+}
+body{
+    /* background-color: azure; */
+    background-image: url(https://www.groupmicro.com/wp-content/uploads/2016/04/main-background1-1024x576.jpg);
+    background-repeat: no-repeat;
+    background-size: 150%;
+
+}
+
+form{
+    padding: 50px;
+}
+
+
