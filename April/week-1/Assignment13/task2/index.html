@@ -6,15 +6,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Nandan</title>
     <script>
-        a=window.prompt("Enter number: ")
-if (a<15) {
-    console.log("Entered value is less than 15")}
-else{
-    console.log("Entered value is not less than 15")
+        let a=window.prompt("Enter number 1: ")
+let b=window.prompt("Enter number 2: ")
+let c=window.prompt("Enter number 3: ")
+let max;
+if(a>b && a>c) {
+    max=a;
 }
+else if (b>a && b>c) {
+    max=b;
+}
+else {
+    max=c;
+}
+ console.log(max);
     </script>
 </head>
 <body>
-    <p>To check entered number is less than 15 or not</p> 
+    <p>To find largest of three numbers</p>
 </body>
 </html>
