@@ -1,0 +1,122 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+
+.head1{
+    justify-content: center;
+    color: white;
+    height: 20px;
+    display: block;
+    
+}
+
+
+
+.container{
+    margin-top: 10%;
+    border: 4px solid rgb(138, 138, 200);
+    padding: 20px;
+    width: 300px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+   border-radius: 15px;
+   background-image: url('https://thumbs.dreamstime.com/b/black-smoke-motion-white-background-fire-design-165083583.jpg');
+   background-size: 100%;
+   justify-content: center;
+   justify-items: center;
+   margin-left: 38%;
+
+
+   /* width: 50%; */
+   /* align-content: center;
+   align-items: center; */
+   /* display: flex;
+   flex-direction: column; */
+}
+
+label{
+    font-weight: 500;
+}
+
+
+h1{
+    text-align: center;
+}
+
+.form-element{
+    margin-bottom: 10px;
+    
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    background-image: url('https://www.loginradius.com/blog/static/2cf3ab878e7f43130e8b8a4fe8b21e22/a3513/single-page-application.png');
+    background-size: auto;
+    background-repeat: 100%;
+    flex-direction: column;
+
+}
+
+label{
+    display: block;
+    margin-bottom: 5px;
+
+}
+
+input{
+    width:100% ;
+    height: 30px;
+    border: 2px solid grey;
+    border-radius: 8px;
+    padding: 4px;
+}
+
+.flex-button {
+    display: flex;
+    justify-content: center;
+}
+
+#btn{
+    background-color: rgb(47, 122, 235) ;
+    border-radius: 6px;
+    color: white;
+    width: 25%;
+    height: 25px;
+    
+}
+button:hover{
+    cursor: pointer;
+}
+
+
+
+
+.error{
+    border: 2px solid red;
+}
+
+.success{
+    border: 2px solid green;
+}
+
+small{
+    /* visibility: hidden; */
+    display: none;
+    color: red;
+    font-size: 10px;
+    margin: 0px;
+    padding: 0px;
+
+}
+small.display{
+    /* visibility: visible; */
+    display: block;
+}
+
+small.hidden{
+    display: none;
+
+}
