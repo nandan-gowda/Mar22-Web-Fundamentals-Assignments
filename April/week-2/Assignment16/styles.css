@@ -1,10 +1,10 @@
 .beforehover {
-    height: 150px;
-    width: 150px;
-}
-.afterhover {
     height: 250px;
     width: 250px;
+}
+.afterhover {
+    height: 150px;
+    width: 150px;
 }
 
 
