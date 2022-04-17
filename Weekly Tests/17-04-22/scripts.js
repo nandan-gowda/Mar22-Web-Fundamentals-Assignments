@@ -15,7 +15,7 @@ table.appendChild(tbody);
 
 document.getElementById('bodyTable').appendChild(table);
 
-// let row1= ['ID', 'Email', 'first name','lasst name','image']
+// let row1= ['Email', 'first name','lasst name','image']
 // for(let i=0; i<row1.length; i++){
 //    let row_1 = document.createElement('tr')
 //     let heading_1= document.createElement('th')
@@ -27,47 +27,39 @@ document.getElementById('bodyTable').appendChild(table);
 
 let row_1 = document.createElement('tr');
 let heading_1 = document.createElement('th');
-heading_1.innerHTML = "Id";
+heading_1.innerHTML = "Email";
 let heading_2 = document.createElement('th');
-heading_2.innerHTML = "Email";
+heading_2.innerHTML = "First Name";
 let heading_3 = document.createElement('th');
-heading_3.innerHTML = "First Name";
+heading_3.innerHTML = "Last Name";
 let heading_4 = document.createElement('th');
-heading_4.innerHTML = "Last Name";
-let heading_5 = document.createElement('th');
-heading_5.innerHTML = "Image";
-
+heading_4.innerHTML = "Image";
 
 row_1.appendChild(heading_1);
 row_1.appendChild(heading_2);
 row_1.appendChild(heading_3);
 row_1.appendChild(heading_4);
-row_1.appendChild(heading_5);
 thead.appendChild(row_1);
-
 
 
 for(let i=0; i<userList.length; i++){
     let row_2 = document.createElement('tr');
 let row_2_data_1 = document.createElement('td');
-row_2_data_1.innerHTML =userList[i].id;
+row_2_data_1.innerHTML = userList[i].email;
 let row_2_data_2 = document.createElement('td');
-row_2_data_2.innerHTML = userList[i].email;
+row_2_data_2.innerHTML = userList[i].first_name;
 let row_2_data_3 = document.createElement('td');
-row_2_data_3.innerHTML = userList[i].first_name;
+row_2_data_3.innerHTML = userList[i].last_name;
 let row_2_data_4 = document.createElement('td');
-row_2_data_4.innerHTML = userList[i].last_name;
-let row_2_data_5 = document.createElement('td');
 
 
 let img = document.createElement("img");
 img.src = userList[i].avatar;
-row_2_data_5.appendChild(img);
+row_2_data_4.appendChild(img);
 
 row_2.appendChild(row_2_data_1);
 row_2.appendChild(row_2_data_2);
 row_2.appendChild(row_2_data_3);
 row_2.appendChild(row_2_data_4);
-row_2.appendChild(row_2_data_5);
 tbody.appendChild(row_2);
 }
