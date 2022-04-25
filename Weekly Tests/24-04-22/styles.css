@@ -4,6 +4,8 @@ img{
     border-radius: 150px;
 }
 
+
+
   
 
 #title{
@@ -17,7 +19,8 @@ body{
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    background-color: rgb(219, 86, 86);
+    background-image: url('https://wallpaperaccess.com/full/5580651.jpg');
+
 }
 .section{
     display: flex;
@@ -25,11 +28,14 @@ body{
     justify-content: center;
    align-items: center;
    width: 400px; 
-   background-color: aqua;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
    padding: 40px; 
    border-radius: 20px;
-   border: 2px solid rgb(212, 36, 16);
+   background-image: url('https://www.teahub.io/photos/full/30-308614_rainbow-bokeh-gradation-blur-android-wallpaper-hd-blur.jpg');
+
 }
+
+
 .container{
    
     display: flex;
